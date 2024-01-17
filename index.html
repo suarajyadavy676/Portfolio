@@ -140,7 +140,7 @@
             <div class="work-list">
                 <div class="work">
                     <img src="images/weather_api.png">
-                    <div class="layer">
+                    <div class="layer" id="zindex">
                         <h3>Weather App using API</h3>
                         <p>
                             The weather app project aims to develop a user-friendly application providing real-time weather updates. Integrating with reliable APIs, it delivers accurate forecasts. The app's sleek design ensures a seamless user experience, making it an essential tool for staying informed about current and upcoming weather conditions.
@@ -215,7 +215,7 @@
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
-                    <span id="msg"></span>
+                    <h2 id="msg"></h2>
                 </div>
             </div>
         </div>
@@ -253,9 +253,11 @@
     </script>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxkR3y3zMzAk4jCaaZbyYdHdhdsEecI9E2qNuVEV327B48A92N-ntH-_S0xqhQvJ0ie/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxO-aQsmx7HXX1_MXx_Lsym3-bSsQCMz9V2NiDBQpsZS18JW1O5VZ-Ig94h8QE_Afg_bw/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById('msg')
+    msg.style.margin = "10px"
+    msg.style.color = "white"
   
     form.addEventListener('submit', e => {
       e.preventDefault()
