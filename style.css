@@ -27,8 +27,9 @@ nav{
     justify-content:space-between;
     flex-wrap: wrap;
     position: fixed;
-    top: 20px;
+    top: 0px;
     width: 80%;
+    background-color: black;
 }
 #img {
     font-size: 65px;
@@ -97,6 +98,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: #fff;
 }
+
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
@@ -265,6 +267,9 @@ nav ul li a:hover::after{
 }
 .contact-left{
     flex-basis: 35%;
+}
+.contact-left>p>a{
+    text-decoration: none; color: white;
 }
 .contact-right{
     flex-basis: 60%;
