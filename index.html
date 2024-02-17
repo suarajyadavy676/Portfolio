@@ -16,9 +16,10 @@
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Skills</a></li>
-                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#project">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="images/240127-CV.pdf" download  target="_blank" rel="noopener">Resume</a></li>
+                    <li><a href="#" id="resumeDownload">Resume</a>
+                    </li>
                     
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
@@ -35,7 +36,7 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/suraj.png" >
+                    <img src="images/myPic.jpg" >
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -206,7 +207,7 @@
                         <a href="https://www.linkedin.com/in/suraj-yadav1511/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a> <br> <br>
                         <a href="https://github.com/suarajyadavy676" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="images/240127-CV.pdf" target="_blank" rel="noopener" download class="btn btn2">Download Resume</a>
+                    <a href="#" id="download" class="btn btn2">Download Resume</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -271,6 +272,7 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
-  </script> 
+  </script>
+  <script src="reume.js"></script>
 </body>
 </html>
