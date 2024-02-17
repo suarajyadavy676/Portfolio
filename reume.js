@@ -6,7 +6,7 @@ document.getElementById('resumeDownload').addEventListener('click', function(eve
   var resumeUrl = "images/Suraj-Yadav-Resume.pdf";
 
   // Open Google Drive link in a new tab
-  var driveUrl = 'https://drive.google.com/file/d/1E8FT_1XFXQgfoSLHo_C1JCKQcU0GRIvt/view?usp=sharing';
+  var driveUrl = 'https://drive.google.com/file/d/174uSMsICxczDCKwm1AEcXdSXnVC20JI2/view?usp=drive_link';
 
   // Create an anchor element to initiate the download
   var downloadLink = document.createElement('a');
@@ -28,7 +28,7 @@ document.getElementById('download').addEventListener('click', function(event) {
   var resumeUrl = "images/Suraj-Yadav-Resume.pdf";
 
   // Open Google Drive link in a new tab
-  var driveUrl = 'https://drive.google.com/file/d/1E8FT_1XFXQgfoSLHo_C1JCKQcU0GRIvt/view?usp=sharing';
+  var driveUrl = 'https://drive.google.com/file/d/174uSMsICxczDCKwm1AEcXdSXnVC20JI2/view?usp=drive_link';
 
   // Create an anchor element to initiate the download
   var downloadLink = document.createElement('a');
